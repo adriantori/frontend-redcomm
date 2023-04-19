@@ -4,7 +4,7 @@
             <Title>Notes: {{ product.title }}</Title>
             <Meta name="description" :content="product.description" />
         </head>
-        <ProductDetails :product="product"/>
+        <NotesDetails :product="product"/>
     </div>
 </template>
 
